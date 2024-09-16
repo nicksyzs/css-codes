@@ -5,7 +5,7 @@
 }
 
 .fiap {
-    width: 170px;
+    width: 120px;
     height: auto;
 }
 
@@ -21,6 +21,11 @@ header {
     color: white;
     padding: 10px 0;
     text-align: center;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    transition: all 0.03 ease;
 }
 
 .nav-links {
@@ -121,4 +126,15 @@ strong {
 
 .services-section h2 {
     grid-column: span 3;
+}
+
+.btnWhats {
+    width: 100px;
+    height: auto;
+    position: fixed;
+    right: 30px;
+    bottom: 30px;
+    background: white;
+    border-radius: 50%;
+    border: 5px solid green;
 }
